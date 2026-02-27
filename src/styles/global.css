@@ -24,7 +24,21 @@ body {
   margin-bottom: 1rem;
 }
 
-.app .header p {
+.app .header p,
+.app .home p,
+.app .footer p {
   color: #aaa;
   font-size: 1.1rem;
+}
+
+.app .home {
+  margin: 1.5rem 0;
+}
+
+.app .home button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
